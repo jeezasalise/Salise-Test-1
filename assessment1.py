@@ -18,4 +18,4 @@ if read_csvfile.endswith('.csv') and path.exists(read_csvfile):
             json_file.write(json.dumps(data, indent = 4))
             print("Success!")
 else:
-    print("Csv file does not exist. Please check your input.\n")
+    print("Csv file does not exist. Please check the file name and file extension.\n")
